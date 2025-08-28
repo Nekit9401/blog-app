@@ -1,0 +1,15 @@
+export const OPERATION_SERVER = {
+	AUTHORIZE: 'authorize',
+	FETCH_ROLES: 'fetchRoles',
+	FETCH_USERS: 'fetchUsers',
+	FETCH_POST: 'fetchPost',
+	ADD_POST_COMMENT: 'addPostComment',
+	UPDATE_USER_ROLE: 'updateUserRole',
+	REMOVE_USER: 'removeUser',
+	REGISTER: 'register',
+	LOGOUT: 'logout',
+	REMOVE_POST_COMMENT: 'removePostComment',
+	SAVE_POST: 'savePost',
+	REMOVE_POST: 'removePost',
+	FETCH_POSTS: 'fetchPosts',
+};
