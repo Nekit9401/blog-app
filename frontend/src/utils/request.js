@@ -1,9 +1,5 @@
-import { API_BASE_URL } from '../config';
-
 export const request = async (url, method, data) => {
-	const fullUrl = API_BASE_URL ? `${API_BASE_URL}${url}` : url;
-
-	const res = await fetch(fullUrl, {
+	const res = await fetch(url, {
 		headers: {
 			'Content-type': 'application/json',
 		},
