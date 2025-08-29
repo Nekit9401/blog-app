@@ -14,7 +14,6 @@ async function register(login, password) {
 
 	const user = await User.create({ login, password: passwordHash });
 	const token = generate({ id: user.id });
-	console.log(user);
 
 	return { user, token };
 }
